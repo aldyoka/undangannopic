@@ -12,7 +12,7 @@ class MainController extends Controller
 {
     public function index(Request $request)
     {
-        $nama = $request->query('yth');
+        $nama = $request->query('kepada');
         $main = Main::all();
         // return "Search keyword: " . $nama;
         return view('welcome', compact('main', 'nama'));
