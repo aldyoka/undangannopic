@@ -141,7 +141,7 @@
             </table>
             <div class="row">
                 <div class="col-6">
-                    <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M3J1cG1obXVlZ2VocTdpN2lidTRpajVjdjUgYWxkeS5hcmRpdGFAbQ&amp;tmsrc=aldy.ardita%40gmail.com"
+                    <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGVncW5mcDFuNzEwN3VnajYzbWd2bnVwbnAgYWxkeS5hcmRpdGFAbQ&tmsrc=aldy.ardita%40gmail.com"
                         class="btn btn-elegant">Ingatkan saya</a>
                 </div>
                 <div class="col-6">
