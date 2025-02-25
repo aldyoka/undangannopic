@@ -1,0 +1,27 @@
+/* Container tabel untuk membatasi tinggi dan menambahkan scroll */
+.table-container {
+    margin: 0px 50px;
+    max-height: 300px; /* Maksimal tinggi container */
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+/* Gaya dasar tabel */
+.scrolling-table {
+    width: 100%; /* Lebar tabel menyesuaikan container */
+    border-collapse: collapse; /* Hilangkan jarak antar sel */
+}
+
+/* Gaya header tabel */
+.scrolling-table th {
+    position: sticky; /* Membuat header tetap di atas */
+    top: 0; /* Posisi sticky pada bagian atas */
+    border-bottom: 1px #f8f9fa;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Gaya sel tabel */
+.scrolling-table td {
+    padding: 10px;
+}

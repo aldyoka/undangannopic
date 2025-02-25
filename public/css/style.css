@@ -1,0 +1,333 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e4e0e1;
+    background-color: #0c0c0c;
+}
+
+/* .isi {
+  background-image: url("https://picsum.photos/400/300");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center right;
+} */
+
+.musiccontrol {
+    position: fixed;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background: #b3b3b352;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 999999;
+}
+
+.border-round {
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    background-color: #0000003d;
+}
+
+.bg-modal {
+    /* background-image: url("/images/Background-utama-smoke.jpg"); */
+    background-color: #000;
+    background-image: url("/images/bg-top.png"), url("/images/bg-bottom.png");
+    background-position: top center, bottom center;
+    background-size: 70%, 70%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.margin-modal {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+@media screen and (max-height: 825px) {
+    .margin-modal {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.isi-testi {
+    width: 100%;
+    background-image: url("/images/bg-center-right.png"),
+        url("/images/bg-center-left.png");
+    background-position: right center, left center;
+    background-size: 10%, 10%;
+    background-repeat: no-repeat, no-repeat;
+}
+.isi {
+    width: 100%;
+    background-image: url("/images/bg-top-left.png"),
+        url("/images/bg-top-right.png"), url("/images/bg-botom-left.png"),
+        url("/images/bg-botom-right.png");
+    background-position: left top, right top, left bottom, right bottom,
+        right center, left center;
+    background-size: 30%, 30%, 30%, 30%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+@media screen and (min-width: 750px) {
+    .isi {
+        width: 100%;
+        background-image: url("/images/bg-top-left.png"),
+            url("/images/bg-top-right.png"), url("/images/bg-botom-left.png"),
+            url("/images/bg-botom-right.png");
+        background-position: left top, right top, left bottom, right bottom,
+            right center, left center;
+        background-size: 15%, 15%, 15%, 15%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    }
+}
+
+.header {
+    background-image: url("/images/Background-utama-smoke.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 300px;
+    height: 102vh;
+}
+/* Override untuk iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+    .header {
+        background-attachment: scroll;
+    }
+}
+
+/* font */
+.abeezee-regular {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abeezee-regular-italic {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.timecount {
+    background-color: rgba(189, 189, 189, 0.541);
+    padding: 10px;
+    max-width: 150px;
+    /* border: 2px solid rgb(59, 59, 59); */
+    border-radius: 10px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clicker-script-regular {
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/* end font */
+
+.containtime {
+    margin: 140px 0;
+}
+@media screen and (max-height: 800px) {
+    .containtime {
+        margin: 35px 0;
+    }
+}
+
+.nama {
+    background-color: rgba(189, 189, 189, 0.836);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+table {
+    border-collapse: separate;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0px;
+}
+
+.table-counter {
+    vertical-align: middle !important;
+    line-height: 1.1 !important;
+    padding: 20px 5px !important;
+    border-radius: 10px 0px 0px 10px;
+
+    color: #ffffff;
+    /* background-color: #4eff74; */
+}
+.table-counter-number {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+}
+.table-counter-time {
+    border-radius: 0px 10px 0px 0px !important;
+    color: #ffffff;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+.table-counter-second {
+    border-radius: 0px 0px 10px 0px !important;
+    color: #ffffff;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.table-date {
+    vertical-align: middle !important;
+    line-height: 1.1 !important;
+    padding: 20px 5px !important;
+    border-radius: 10px 0px 0px 10px;
+    border: solid 2px #ffffff !important;
+    color: #ffffff;
+    /* background-color: #4eff74; */
+}
+.table-date-number {
+    font-size: 60px !important;
+    font-weight: 700 !important;
+    border: 0px !important;
+    letter-spacing: 0px !important;
+    color: #ffffff;
+}
+.table-time {
+    border-radius: 0px 10px 0px 0px !important;
+    border-top: solid 2px #ffffff !important;
+    border-bottom: solid 2px #ffffff !important;
+    border-right: solid 2px #ffffff !important;
+    color: #ffffff;
+}
+.table-address {
+    border-radius: 0px 0px 10px 0px !important;
+    border-bottom: solid 2px #ffffff !important;
+    border-right: solid 2px #ffffff !important;
+    color: #ffffff;
+}
+
+.person {
+    color: rgb(44, 44, 44);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.person .personname {
+    color: #e4e0e1;
+    font-size: 27px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.person .persondata {
+    color: #e4e0e1;
+}
+
+.person img {
+    width: 75%;
+}
+@media screen and (max-width: 500px) {
+    .person img {
+        width: 50%;
+    }
+}
+
+.doa {
+    background-image: url("/images/Background-utama-smoke.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #000;
+}
+/* Override untuk iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+    .doa {
+        background-attachment: scroll;
+    }
+}
+.doa span {
+    font-size: 40px;
+}
+.doa p {
+    font-size: 16px;
+}
+
+.bg-custom {
+    background-color: rgba(117, 117, 117, 0.404);
+}
+
+.formucapan {
+    background-color: #0f0f0f;
+    padding: 10px;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end {
+    background-color: #0f0f0f;
+}
+
+.btn-elegant {
+    width: 80%;
+    background: linear-gradient(
+        90deg,
+        rgba(140, 92, 2, 1) 0%,
+        rgba(208, 158, 1, 1) 25%,
+        rgba(255, 215, 66, 1) 50%,
+        rgba(251, 245, 219, 1) 75%,
+        rgba(249, 208, 45, 1) 100%
+    );
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 3px rgba(140, 92, 2, 1);
+}
+@media screen and (max-width: 390px) {
+    .btn-elegant {
+        width: 95%;
+    }
+}
